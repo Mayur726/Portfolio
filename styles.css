@@ -1,0 +1,599 @@
+/************Selectors**************/
+@import url('http://fonts.cdnfonts.com/css/century-gothic');
+body{
+   text-align: center;
+   background-color: #fff8f0;
+   color:#111D4A;
+}
+
+hr{
+    width: 10%;
+    display: inline-block;
+    border: solid black 2px;
+    margin-right: 5px;
+    margin-left: 5px;
+    border-bottom: none;
+    margin-bottom: 10px;
+
+}
+
+/************Class-Selectors**************/
+  .navbar{
+    color: white;
+    background-color: #92140C;
+  }
+
+  .nav-item{
+    color: #fff8f0;
+  }
+  .nav-link{
+    font-size: 1.10rem;
+    color: #fff8f0;
+    margin-right: 60px;
+    font-family: 'Century Gothic', sans-serif;
+    font-weight: 500;
+  }
+
+  .navbar-brand{
+    padding-left: 3%
+  }
+    /****top***/
+      .top-image{
+        float: right;
+        width: 460px;
+        height: 450px;
+        margin-right:8%
+      }
+
+      .top-title{
+        font-size:1.75rem;
+        padding-bottom: 2%;
+        font-family: 'Century Gothic', sans-serif;
+        font-weight: 700;
+        color:#111D4A;
+      }
+
+      .top-content{
+        font-size: 1.25rem;
+        font-family: 'Century Gothic', sans-serif;
+        font-weight: 400;
+        color:#111D4A;
+      }
+      .content-div{
+        text-align: left;
+        padding: 12% 5% 5% 12%;
+        color:#111D4A;
+      }
+      .top-div{
+        padding: 5% 7% 5% 7%;
+        color:#111D4A;
+      }
+    /****intro****/
+        .intro-para{
+          font-family: 'Century Gothic', sans-serif;
+            width: 50%;
+            margin: 50px auto 50px auto;
+            font-weight: 400;
+            color:#111D4A;
+            line-height: 1.65;
+            font-size: 1.25rem;
+        }
+
+        .intro-title{
+            font-family: 'Lobster', cursive;
+            padding-top: 15%;
+            font-size: 3.5rem;
+            color:#111D4A;
+        }
+
+        .intro-logo{
+            margin: 32px auto 8% auto;
+            width: 25%;
+        }
+    /****Education****/
+
+        .education-container{
+            text-align: left;
+            margin-left: 15%;
+            width: 60%;
+            padding: 50px 0px;
+        }
+
+        .circle{
+            width: 20px;
+            margin-right:10px;
+        }
+
+        .vl{
+            border-left: 3px solid #111D4A;;
+            height: 20vh;
+            display: inline-block;
+            float: left;
+            margin-left: 0.5rem;
+            margin-right: 2rem;
+
+        }
+
+        .education-subtitle{
+          font-family: 'Century Gothic', sans-serif;
+            font-weight: 700;
+            color:#111D4A;
+        }
+
+        .eduction-title{
+            font-family: 'Lobster', cursive;
+            color:#111D4A;
+            font-size: 3.5rem;
+            padding-top: 150px;
+        }
+
+        .education-para{
+            font-family: 'Century Gothic', sans-serif;
+            font-weight: 400;
+            color:#111D4A;
+            font-size: 1.25rem;
+        }
+    /*****skills******/
+
+        .skills-row{
+            width: 50%;
+            margin: 0px auto 0px auto;
+            padding-bottom: 20px;
+        }
+
+        .skills-title{
+            font-family: 'Lobster', cursive;
+            font-size: 3.5rem;
+            margin: 50px auto 50px auto;
+            color:#111D4A;
+        }
+
+         .skills-points{
+            /* margin-top: 30px; */
+            font-family: 'Century Gothic', sans-serif;
+            font-weight: 500;
+            color:#111D4A;
+            font-size: 1.5rem;
+        }
+
+        .para{
+            text-align: left;
+            color:#111D4A;
+        }
+
+        .skills-icon1{
+          width: 20%;
+          margin-left: 40%;
+        }
+        .skills-icon2{
+          width: 30%;
+            margin-left: 40%;
+        }
+        .skills-icon3{
+          width: 40%;
+            margin-left: 40%;
+        }
+        .skills-icon4{
+          width: 50%;
+            margin-left: 40%;
+        }
+    /*******experience********/
+
+        .experience-title{
+           padding-bottom: 50px;
+           padding-top: 30px;
+           font-family: 'Lobster', cursive;
+           font-size: 3.5rem;
+           color:#111D4A;
+        }
+
+        .experience-container{
+            width: 60%;
+        }
+
+        .img1{
+            width: 40%;
+
+        }
+
+        .img2{
+            width: 40%;
+
+        }
+
+        .img3{
+            width: 40%;
+        }
+
+        .experience-points{
+            width: 70%;
+            margin: 0px auto 0px auto;
+            font-family: 'Century Gothic', sans-serif;
+            font-weight: 400;
+            color:#111D4A;
+        }
+
+       .experience-row{
+           margin: 30px auto 80px auto;
+       }
+
+       .exp{
+           text-align: left;
+           margin-top: auto;
+           margin-bottom: auto;
+       }
+
+    /*******hobbies**********/
+
+
+
+    .hobbies-title{
+        margin-top: 50px;
+        padding-top: 50px;
+        font-family: 'Lobster', cursive;
+        font-size: 3.5rem;
+        color:#111D4A;
+    }
+
+    .hobbies-points{
+        font-family: 'Century Gothic', sans-serif;
+        font-weight: 500;
+        font-size: 1.5rem;
+        color:#111D4A;
+    }
+
+    .hobbies-icon{
+        width: 20%;
+        margin-right: 10px;
+    }
+
+
+    /********contact*******/
+
+        .contact-title{
+            margin-top: 50px;
+            padding-top: 50px;
+            padding-bottom: 50px;
+            font-family: 'Lobster', cursive;
+            font-size: 3.5rem;
+            color:#111D4A;
+        }
+
+        .contact{
+            padding-bottom: 50px;
+
+        }
+
+        .contact-para{
+          font-family: 'Century Gothic', sans-serif;
+            font-weight: 500;
+            font-size: 1.5rem;
+            padding-bottom: 20px;
+            width: 45%;
+            margin: 0px auto 0px auto;
+            color:#111D4A;
+        }
+
+        .contact-icon{
+            width: 5%;
+            margin-right: 30px;
+        }
+
+/***********end*********/
+.end{
+  height: 80px;
+  background-color: #111D4A;
+}
+
+.end-para{
+  font-family: 'Century Gothic', sans-serif;
+  font-weight: 500;
+  color:#111D4A;
+}
+/************Id Selectors**************/
+
+
+  #icon3{
+      width: 20px;
+      height: 20px;
+      margin-right: 7px;
+  }
+
+  #icon2{
+      width: 20px;
+      height: 20px;
+      margin-right: 7px;
+  }
+
+  #icon1{
+      width: 20px;
+      height: 20px;
+      margin-right: 7px;
+  }
+
+  #icon0{
+    width: 50px;
+    height: 50px;
+  }
+
+    /****top***/
+
+    /****intro****/
+    /****Education****/
+    #vll{
+        border-left: 3px solid black;
+        height: 15vh;
+        display: inline-block;
+        float: left;
+        margin-left: 0.5rem;
+        margin-right: 2rem;
+    }
+
+    #year{
+      font-family: 'Century Gothic', sans-serif;
+        font-size: 1rem;
+        font-weight: 400;
+    }
+    /*****skills******/
+    #one{
+      margin-top: 5%;
+    }
+
+    #two{
+      margin-top:2%;
+    }
+    /*******experience********/
+    /*******hobbies**********/
+
+     #hobby1{
+        margin: 0px auto;
+        padding-top: 20px
+    }
+
+    #hobby2{
+        margin: 0px auto;
+        padding-top: 20px
+    }
+
+    #hobby3{
+
+        padding-top: 20px;
+        width: 18.5%;
+        margin: 0px auto;
+    }
+
+    #hobbies-icon3{
+        width: 20%;
+
+    }
+
+    /********contact*******/
+
+
+ /**********media query**************/
+    @media (max-width: 992px ) and (min-width: 600px) {
+        /*****top******/
+        .top-image{
+          float: none;
+         clear: right;
+          margin: 5% auto 0 auto;
+
+        }
+        .content-div{
+          text-align: center;
+          padding: 8% 0 0;
+        }
+
+        .top-div{
+          padding-top: 8%;
+        }
+
+        /*****intro*****/
+        .intro-para{
+          width: 80%;
+          line-height: 1.65;
+          font-weight: 400;
+        }
+
+        .intro-logo{
+          width: 40%;
+        }
+
+        /****education***/
+        .vl{
+          height:25vh;
+        }
+
+        #vll{
+          height: 18vh;
+        }
+        /****skills****/
+        .para{
+            text-align: center;
+        }
+
+        .skills-icon1{
+          margin-left: 0;
+          margin-bottom: 3%;
+        }
+        .skills-icon2{
+            margin-left: 0;
+            margin-bottom: 3%;
+        }
+        .skills-icon3{
+            margin-left: 0;
+            margin-bottom: 3%;
+        }
+        .skills-icon4{
+            margin-left: 0;
+            margin-bottom: 3%;
+        }
+
+        /****experience****/
+        .exp{
+          text-align: center;
+          margin-top: 6%
+        }
+        .img1{
+            width: 45%;
+        }
+        .img2{
+            width: 45%;
+        }
+        .img3{
+            width: 45%;
+        }
+        /****hobbies***/
+        #hobby3{
+            width: 37%;
+        }
+
+        /****contact****/
+        .contact-para{
+          width: 100%;
+        }
+    }
+
+
+    @media (max-width: 599px ) and (min-width: 250px) {
+        /*****top******/
+        .top-image{
+          float: none;
+         clear: right;
+          margin: 5% auto 0 auto;
+          width: 300px;
+          height: 290px;
+        }
+
+        .content-div{
+          text-align: center;
+          padding: 8% 0 0;
+        }
+
+        .top-div{
+          padding-top: 8%;
+        }
+
+        /*****intro*****/
+        .intro-para{
+          width: 80%;
+          line-height: 1.25;
+          font-size: 1.12rem;
+          font-weight: 400;
+        }
+
+        .intro-logo{
+          width: 50%;
+          margin-bottom: 3%;
+        }
+
+        .intro-title{
+            font-size: 2.75rem;
+        }
+        /****education***/
+        .eduction-title{
+          padding-top: 90px;
+          font-size: 2.75rem;
+        }
+
+        .education-para{
+            font-size: 1.1rem;
+        }
+
+        .education-subtitle{
+          font-size: 1.3rem;
+        }
+
+        .vl{
+          height:30vh;
+        }
+
+        #vll{
+          height: 26vh;
+        }
+        /****skills****/
+        .skills-title{
+          font-size: 2.75rem;
+        }
+        .para{
+            text-align: center;
+        }
+
+        .skills-points{
+          font-size: 1.3rem;
+        }
+
+        .skills-icon1{
+          width: 27%;
+          margin-left: 0;
+          margin-bottom: 3%;
+        }
+        .skills-icon2{
+          width: 37%;
+            margin-left: 0;
+            margin-bottom: 3%;
+        }
+        .skills-icon3{
+          width: 47%;
+            margin-left: 0;
+            margin-bottom: 3%;
+        }
+        .skills-icon4{
+          width: 57%;
+            margin-left: 0;
+            margin-bottom: 3%;
+        }
+
+        /****experience****/
+        .exp{
+          text-align: center;
+          margin-top: 6%;
+        }
+        .exp-title{
+          font-size: 1.3rem;
+        }
+        .exp-para{
+          font-size: 1.1rem;
+        }
+        .experience-title{
+          font-size: 2.75rem;
+        }
+        .img1{
+            width: 60%;
+        }
+        .img2{
+            width: 60%;
+        }
+        .img3{
+            width: 60%;
+        }
+        /****hobbies***/
+        #hobby3{
+            width: 37%;
+        }
+
+        .hobbies-icon{
+            width: 40%;
+            margin-bottom: 6%;
+        }
+
+        #hobbies-icon3{
+            width: 40%;
+            margin-bottom: 6%;
+        }
+
+        .hobbies-points{
+          font-size: 1.4rem;
+        }
+        .hobbies-title{
+          font-size: 2.75rem;
+        }
+        /****contact****/
+        .contact-para{
+          width: 100%;
+          font-size: 1rem;
+        }
+        .contact-title{
+          font-size: 2.75rem;
+        }
+    }
